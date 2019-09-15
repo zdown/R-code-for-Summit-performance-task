@@ -150,10 +150,6 @@ summit_data_final = merge(combo_demographics[, c("ID", "GENDER", "RACE_ETHNICITY
 
 View(summit_data_final)
 
-#### re-order columns ####
-
-colnames(summit_data)
-summit_data <- all_data[c("ID", "LAST_NAME", "FIRST_NAME", "SITE_NAME", "GRADE_LEVEL", "RACE_ETHNICITY", "GENDER", "IEP")]
 
 #### check column data for weird things ####
 
